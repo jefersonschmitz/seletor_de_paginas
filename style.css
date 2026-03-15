@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(124, 122, 122);
+    color: white;
+}
+
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-style: italic;
+    cursor: default;
+}
+section{
+    margin: 0 auto;
+    margin-top: 50px;
+    border:2px solid rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 15px;
+
+}
+p{
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-style: italic;
+    cursor: default;
+}
+li{
+    list-style: none;
+    border: 1px solid white;
+    width: 80px;
+    text-align: center;
+    display: inline-block;
+    padding:2px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 23px;
+}
+hr{
+    background-color: rgb(255, 255, 255);
+    height: 8px;
+}
+
+ nav li:hover{
+    background-color: white;
+    color: black;
+    transition: 0.3s;
+}
